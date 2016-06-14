@@ -5,15 +5,6 @@ body {
 ul {
   list-style: none;
   padding: 0;
-  /*text-align: center;*/
-}
-
-li {
-  padding: 0;
-}
-
-span {
-  color: #77787A;
 }
 
 a {
@@ -22,20 +13,13 @@ a {
   font-weight: bold;
 }
 
-li > a > img {
-  margin-top: 2px;
-  max-width: 100%;
-  max-height: 100%;
-  border: 1.5px solid #cacaca;
-  border-radius: 3px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  display: block;
+span {
+  color: #77787A;
 }
 
 .octodex {
   margin: 20px auto;
-  max-width: calc(463px * 3);
+  width: 1389px;
 }
 
 .octodex::after {
@@ -46,16 +30,27 @@ li > a > img {
 
 .octocat {
   float: left;
-  margin: 0 10px 50px 0;
+  margin: 0 10px 50px 10px;
   max-width: 443px;
 }
-
 
 .octocat > a {
   display: block;
   position: relative;
-  /*width: 100%;*/
 }
+
+.octocat > a > img {
+  margin-top: 2px;
+  max-width: 100%;
+  max-height: 100%;
+  border: 1.5px solid #cacaca;
+  border-radius: 3px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+}
+
+
 
 
 .image-caption {
@@ -132,18 +127,18 @@ li > a > img {
   position: absolute;
   right: 7px;
   bottom: -7px;
-  /*bottom: 99px;*/
 }
 
 @media (max-width: 1420px) {
   .octodex {
-    max-width: calc(463px * 2);
+    width: 962px;
   }
 }
 
 @media (max-width: 975px) {
   .octodex {
-    max-width: calc(463px * 1);
+    width: 463px;
+    max-width: 100%;
   }
   .octocat > a {
     height: auto;
