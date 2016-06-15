@@ -1,5 +1,4 @@
 #Day-02
-======
 
 My attempt to recreate this image, only using CSS and the supplied html.
 
