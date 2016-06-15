@@ -22,6 +22,7 @@ span {
   width: 1389px;
 }
 
+/* Help the parent find it's children */
 .octodex::after {
   content: '';
   display: block;
@@ -40,6 +41,7 @@ span {
   position: relative;
 }
 
+/* This creates the triangle below .octocat */
 .octocat > a::after {
   content: "";
   width: 0;
@@ -60,7 +62,7 @@ span {
   border-radius: 3px;
   margin: 0 auto;
   box-sizing: border-box;
-  /* Display block here fixes the whitespace below an inline img*/
+  /* Display block here fixes the whitespace below an inline img */
   display: block;
 }
 
@@ -115,7 +117,7 @@ span {
   padding: 19px 0;
 }
 
-/* adds the missing hashtag to the number */
+/* adds the missing hashtag to the .image-number */
 .image-number::before {
   content: '#';
 }
