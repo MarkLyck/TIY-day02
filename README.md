@@ -20,3 +20,5 @@ Try making your web page responsive when the browser is resized.
 My project uses float instead of inline-block, to make sure there won't ever be an odd "octocat" in the middle. They will always float left, while the entire thing is still centered in the screen.
 
 The "octocats" will also shrink to fit any screensize.
+
+My project can be seen live at: http://mlyck-day02.surge.sh
