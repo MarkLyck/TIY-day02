@@ -73,7 +73,7 @@ span {
   height: 28px;
 }
 
-.image-caption > a {
+.image-caption > a, .image-caption > span {
   font-weight: bold;
   display: inline-block;
   line-height: 28px;
@@ -82,13 +82,6 @@ span {
 
 .image-caption > a:hover {
   color: #3A6FB7;
-}
-
-.image-caption > span {
-  font-weight: bold;
-  display: inline-block;
-  line-height: 28px;
-  vertical-align: top;
 }
 
 .authors {
