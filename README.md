@@ -22,3 +22,7 @@ My project uses float instead of inline-block, to make sure there won't ever be 
 The "octocats" will also shrink to fit any screensize.
 
 My project can be seen live at: http://mlyck-day02.surge.sh
+
+---
+
+Looking back at this project late on day 3, I already learned several ways I could have improved on this code. If I were to redo it, I would definitely be using the newer FlexBox to position my elements better.
