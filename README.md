@@ -2,7 +2,13 @@
 
 My attempt to recreate this image, only using CSS and the supplied html.
 
-![alt text](https://raw.githubusercontent.com/tiy-greenville-frontend-2016-feb/assets/master/assignments/html-intro-layout/octodex.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/tiy-greenville-frontend-2016-feb/assets/master/assignments/html-intro-layout/octodex.png "Image we were tasked to recreate")
+
+Here is my version in html and CSS:
+
+![alt text](https://i.gyazo.com/fd52733389f87fd11576d9d22a2a3da8.png "Screenshot from my version")
+
+
 
 I completed both adventurer mode and Epic Mode:
 
